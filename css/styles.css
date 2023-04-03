@@ -1,0 +1,34 @@
+body {
+    background-color: #ffffff;
+    color:#434455 ;
+}
+.list{
+    list-style: none;
+}
+
+/* цвет основного текста #434455 */
+.logo {
+    color: #000000;
+}
+.logo:hover {
+    color:#000000;
+}
+/* Header section */
+/* style logo */
+.site-nav.logo link {
+color:#000000;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color:#000000; 
+}
+/* Hero section */
+.hero-title{
+    color:#000000;
+
+}
+/* Sections */
+.section-title{
+    color:#000000;
+}
+/* Footer section */

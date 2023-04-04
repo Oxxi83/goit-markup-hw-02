@@ -1,10 +1,37 @@
 body {
+    font-family: 'roboto',sans-serif;
     background-color: #ffffff;
-    color:#434455 ;
+    color:var(--color-contacts-p);
+    background-color: var(--white-color);
+    letter-spacing: 0,02em;
 }
+
+:root {
+--color-logo-btn:#4d5ae5;
+--primary-color:#2e2f42;
+--color-contacts-p:#434455;
+--white-color:#ffffff;
+--secondary-color:#f4f4fd;
+--btn-bgs-hero-primary:#4d5ae5;
+--btn-bgs-hero-secondary:#404bbf;
+--btn-portfolio-color:#e7e9fc;
+}
+/**
+  |============================
+  | 
+  |============================
+*/
+.link{
+    text-decoration: none;
+}
+
 .list{
     list-style: none;
 }
+.hide-title{
+display: none;
+}
+
 
 /* цвет основного текста #434455 */
 .logo {

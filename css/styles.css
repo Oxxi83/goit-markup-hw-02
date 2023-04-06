@@ -34,47 +34,54 @@ display: none;
 
 
 /* цвет основного текста #434455 */
-.logo {
-    color: #000000;
-}
-.logo:hover {
-    color:#000000;
-}
 
-/* style logo */
-.site-nav.logo link {
-color:#000000;
-}
 /* Header section */
 
 .menu-link {
-font style: Medium;
-font-weight: 500;
-font size: 16px;
-line height: 1,5;
-letter spacing: 0,02em;
-  color:var(--primary-color)
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1,5;
+      color:var(--primary-color);
 
 }
-
 .adress-link {
-font-style: normal;
-Font-weight: 400;
-Font size: 16px;
-Line height: 1,5;
-Letter spacing: 0,02em;
-  color: var(--color-contacts-p)
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,5;
+    letter-spacing: 0.02em;
+       color: var(--color-contacts-p);
+}
+
+.adress-link:active{
+    color: var(--color-logo-btn);
+}
+.adress-link:hover
+.adress-link:focus{
+    color: var(--color-contacts-p);
+
 }
 
 /* Hero section */
 
-
 .hero-title{
-    color:#000000;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1,07;
+    text-align: center;
+    letter-spacing: 0.02em;
+       color: var(--white-color);
 
+       
 }
+
+
 /* Sections */
-.section-title{
-    color:#000000;
-}
+
 /* Footer section */

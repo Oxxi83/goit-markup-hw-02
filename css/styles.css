@@ -1,5 +1,5 @@
 body {
-    font-family: 'roboto',sans-serif;
+    font-family: 'Roboto',sans-serif;
     background-color: #ffffff;
     color:var(--color-contacts-p);
     background-color: var(--white-color);
@@ -25,7 +25,7 @@ body {
     text-decoration: none;
 }
 
-.list{
+.list {
     list-style: none;
 }
 .hide-title{
@@ -40,16 +40,35 @@ display: none;
 .logo:hover {
     color:#000000;
 }
-/* Header section */
+
 /* style logo */
 .site-nav.logo link {
 color:#000000;
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
-    color:#000000; 
+/* Header section */
+
+.menu-link {
+font style: Medium;
+font-weight: 500;
+font size: 16px;
+line height: 1,5;
+letter spacing: 0,02em;
+  color:var(--primary-color)
+
 }
+
+.adress-link {
+font-style: normal;
+Font-weight: 400;
+Font size: 16px;
+Line height: 1,5;
+Letter spacing: 0,02em;
+  color: var(--color-contacts-p)
+}
+
 /* Hero section */
+
+
 .hero-title{
     color:#000000;
 

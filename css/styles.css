@@ -57,6 +57,11 @@ display: none;
        color: var(--color-contacts-p);
 }
 
+.menu-link:hover
+.menu-link:focus{
+
+}
+
 .adress-link:active{
     color: var(--color-logo-btn);
 }
@@ -78,8 +83,9 @@ display: none;
     letter-spacing: 0.02em;
        color: var(--white-color);
 
-       
+
 }
+
 
 
 /* Sections */
